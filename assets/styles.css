@@ -1,3 +1,35 @@
-strong {
-	font-size: 80px;
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50%;
+	margin-top: 5%;
+	margin-left: 2%;
+}
+.mylist {
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+}
+.displaymytodolist {
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+}
+input[type="text"] {
+	border: none;
+	border-bottom: solid 1px grey;
+	padding-bottom: 2px;
+}
+input[type="text"]:focus {
+	border: none;
+	border-bottom: solid 3px grey;
+	padding-bottom: 2px;
 }
