@@ -33,3 +33,7 @@ input[type="text"]:focus {
 	border-bottom: solid 3px grey;
 	padding-bottom: 2px;
 }
+input[type="submit"] {
+	border: none;
+	background-color: inherit;
+}
